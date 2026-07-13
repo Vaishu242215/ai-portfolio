@@ -29,13 +29,24 @@ export default function Hero() {
           </p>
 
           <div className="flex gap-4 mt-8">
-            <button className="bg-cyan-500 hover:bg-cyan-400 px-6 py-3 rounded-full text-black font-semibold transition">
-              Hire Me
-            </button>
 
-            <button className="border border-cyan-400 px-6 py-3 rounded-full hover:bg-cyan-400 hover:text-black transition">
+            {/* Hire Me Button */}
+            <a
+              href="#contact"
+              className="bg-cyan-500 hover:bg-cyan-400 px-6 py-3 rounded-full text-black font-semibold transition duration-300"
+            >
+              Hire Me
+            </a>
+
+            {/* Download Resume Button */}
+            <a
+              href="/resume.pdf"
+              download="Vaishnavi_AI_ML_Resume.pdf"
+              className="border border-cyan-400 px-6 py-3 rounded-full hover:bg-cyan-400 hover:text-black transition duration-300"
+            >
               Download Resume
-            </button>
+            </a>
+
           </div>
         </div>
 
