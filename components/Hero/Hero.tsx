@@ -54,7 +54,7 @@ export default function Hero() {
         <div className="flex justify-center">
           <div className="w-80 h-80 rounded-full border-4 border-cyan-400 overflow-hidden shadow-[0_0_40px_rgba(6,182,212,0.5)]">
             <Image
-              src="/images/profile.png"
+              src="/Images/profile.png"
               alt="Vaishnavi"
               width={320}
               height={320}
